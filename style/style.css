@@ -24,12 +24,23 @@ form.contactform {
   font-size: 14pt;
 }
 
+.text p::first-letter {
+  font-size: 28px;
+  font-weight: bold;
+}
+
 .fa-linkedin {
   color: #0021A5;
   font-size: 45px;
   position: absolute;
   right: 100px;
   top: 30px;
+  transition: .3s;
+}
+
+.fa-linkedin:hover {
+  color: #E87722;
+  transition: .3s;
 }
 
 a {
@@ -41,15 +52,15 @@ a {
 a:hover,
 .reset:hover,
 .submit:hover {
-  text-decoration: underline;
+  text-decoration: underline 2px;
   text-decoration-color: #0021A5;
   transition: .3s;
 }
 
 a:active,
-.reset:hover,
-.submit:hover {
-  text-decoration: underline;
+.reset:active,
+.submit:active {
+  text-decoration: underline 2px;
   text-decoration-color: #E87722;
   transition: .3s;
 }
@@ -63,12 +74,27 @@ img.football {
 .written {
   position: relative;
   padding: 20px 0;
+  line-height: 2;
 }
 
 .container {
   display: inline;
   width: 60%;
   padding: 40px 100px 10px 50px;
+}
+
+.email:before {
+  content: "\f658";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  padding-right: 5px;
+}
+
+.phone::before {
+  content: "\f879";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  padding-right: 5px;
 }
 
 /*===========================
@@ -81,4 +107,11 @@ img.football {
 
 form.contactform {
 
+}
+
+.emailform label:after {
+  content: "\f658";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  padding-left: 5px;
 }
