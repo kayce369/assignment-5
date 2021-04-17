@@ -18,40 +18,45 @@
   <body>
     <h1>let's chat</h1>
 
-    <img src="images/contact.jpg" alt="Virginia Tech Football Game" width="400">
+    <img class="football" src="images/contact.jpg" alt="Virginia Tech Football Game" width="400">
 
-    <div class="written">
-      <p><a href="mailto:georgi.kayce@ufl.edu">georgi.kayce@ufl.edu</a></p>
-      <p><a href="tel:+12405294709">(240) 529-4709</a></p>
-      <p>Washington, D.C.</p>
+    <div class="container">
+      <div class="text">
+        <p>Thank you for visiting my website! I look forward to your message, and hope you'll get in contact soon. Please feel free to use the contact information below, or send me a message via the form, and I'll be sure to respond to you!</p>
+      </div>
+
+      <div class="written">
+        <p><a href="mailto:georgi.kayce@ufl.edu">georgi.kayce@ufl.edu</a></p>
+        <p><a href="tel:+12405294709">(240) 529-4709</a></p>
+        <p>Washington, D.C.</p>
+        <a href="https://www.linkedin.com/in/kayce-georgi-1591572b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+
+      <form name="contact" class="contactform" action="" method="post">
+        <div class="nameform">
+          <label for="nameinput" class="label_input_wrap">Name</label>
+          <input type="text" name="nameinput" id="nameinput" />
+        </div>
+
+        <div class="emailform">
+          <label for="emailinput" class="label_input_wrap">Email</label>
+          <input type="email" name="emailinput" id="emailinput" />
+        </div>
+
+        <div class="comment">
+          <label for="comments" class="label_input_wrap">Message</label>
+          <textarea name="comments" id="comments" cols="40" rows="6"></textarea>
+        </div>
+
+        <div class="reset">
+          <input type="reset" value="Refresh">
+        </div>
+
+        <div class="submit">
+          <input type="submit" value="Send">
+        </div>
+      </form>
     </div>
-
-    <i class="fab fa-linkedin"></i>
-
-    <form name="contact" class="contactform" action="" method="post">
-      <div class="nameform">
-        <label for="nameinput" class="label_input_wrap">Name</label>
-        <input type="text" name="nameinput" id="nameinput" />
-      </div>
-
-      <div class="emailform">
-        <label for="emailinput" class="label_input_wrap">Email</label>
-        <input type="email" name="emailinput" id="emailinput" />
-      </div>
-
-      <div class="comment">
-        <label for="comments" class="label_input_wrap">Message</label>
-        <textarea name="comments" id="comments" rows="8" cols="80"></textarea>
-      </div>
-
-      <div class="reset">
-        <input type="reset" value="Refresh">
-      </div>
-
-      <div class="submit">
-        <input type="submit" value="Send">
-      </div>
-    </form>
 
 
 

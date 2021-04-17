@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/*===========================
+
+
+  Page Styling
+
+
+==============================*/
+
+h1 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 36pt;
+  padding: 20px 0 20px 100px;
+}
+
+p,
+form.contactform {
+  font-family: 'Lato', sans-serif;
+  font-size: 14pt;
+}
+
+.fa-linkedin {
+  color: #0021A5;
+  font-size: 45px;
+  position: absolute;
+  right: 100px;
+  top: 30px;
+}
+
+a {
+  color: #0021A5;
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover,
+.reset:hover,
+.submit:hover {
+  text-decoration: underline;
+  text-decoration-color: #0021A5;
+  transition: .3s;
+}
+
+a:active,
+.reset:hover,
+.submit:hover {
+  text-decoration: underline;
+  text-decoration-color: #E87722;
+  transition: .3s;
+}
+
+img.football {
+  float: left;
+  width: 40%;
+  padding: 40px 50px 10px 100px;
+}
+
+.written {
+  position: relative;
+  padding: 20px 0;
+}
+
+.container {
+  display: inline;
+  width: 60%;
+  padding: 40px 100px 10px 50px;
+}
+
+/*===========================
+
+
+  Form Styling
+
+
+==============================*/
+
+form.contactform {
+
+}
