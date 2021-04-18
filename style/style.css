@@ -32,7 +32,7 @@ p,
   font-size: 14pt;
 }
 
-.text p::first-letter {
+.text p:first-letter {
   font-size: 28px;
   font-weight: bold;
 }
@@ -95,7 +95,7 @@ a:active {
   padding-right: 5px;
 }
 
-.phone::before {
+.phone:before {
   content: "\f879";
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
@@ -139,7 +139,8 @@ label {
   display: inline;
 }
 
-input,
+.emailform input,
+.nameform input,
 textarea {
   border: #8B1F41 solid 2px;
   border-radius: 5px;
