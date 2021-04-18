@@ -57,18 +57,14 @@ a {
   transition: .3s;
 }
 
-a:hover,
-.reset input:hover,
-.submit input:hover {
-  text-decoration: underline 2;
+a:hover {
+  text-decoration: underline;
   text-decoration-color: #0021A5;
   transition: .3s;
 }
 
-a:active,
-.reset:active,
-.submit:active {
-  text-decoration: underline 2;
+a:active {
+  text-decoration: underline;
   text-decoration-color: #E87722;
   transition: .3s;
 }
